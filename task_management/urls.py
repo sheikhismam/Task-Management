@@ -5,5 +5,6 @@ from tasks.views import home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', home),
     path('tasks/', include('tasks.urls'))
 ]
